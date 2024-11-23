@@ -39,11 +39,11 @@ font-size: 1.04rem;
 .firstSection{
   display: flex;
   justify-content: space-around;
-  margin: 90px 0;
+  margin: 30px 0;
   align-items: center;
 }
 .firstSection > div{
-  width: 38%; 
+  width: 42%; 
 }
 
 #element{
@@ -73,7 +73,11 @@ font-size: 1.04rem;
 }
 .rightSection img {
 width: 80%;
-margin: 50px 0;
+margin-bottom: 50px;
+float: right;
+filter: drop-shadow(1px 1px 20px rgb(99, 99, 34));
+
+
 }
 .name{
   color: rgb(153, 60, 240);
@@ -90,7 +94,7 @@ main hr{
   margin: 50px 84px;
 }
 main{
-  margin-bottom: 400px;
+  margin-bottom: 450px;
 }
 .secondSection h1{
   font-size: 1.9rem;
@@ -134,19 +138,46 @@ main{
 
 footer{
   background-color: rgb(2, 1, 21);
+  margin-top: 50px;
 
  
 }
 .footer{
   display: flex;
   padding: 23px 50px;
-  justify-content: space-evenly;
+  
+  margin-top: 50px;
+}
+.footer-second{
+  margin-left: 70%;
+
+}
+.footer-first{
+  font-size: 20px;
+  padding: 10px;
 }
 .footer ul{
   list-style: none;
+float: right;
+display: flex;
+}
+footer ul li{
+  background-repeat: no-repeat;
+  background-position:center ;
+  background-size: cover;
+  padding: 15px;
+
+  
+
+}
+footer ul li img{
+  
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
 }
 .footer >div{
-  width: 210px;
+  width: 300px;
 }
 footer .footer-rights{
 text-align: center;
