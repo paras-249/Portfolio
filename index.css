@@ -3,71 +3,8 @@
   padding: 0%;
 }
 body{
-  height: 100%;
-  width: 100%;
-}
-.intro{
-  height: 300px;
-background: linear-gradient( 90deg, rgb(93, 83, 83),rgb(52, 52, 54),rgb(19, 19, 18),rgb(28, 27, 27),black
-);
-display: flex;
-object-fit: cover;
-}
-.name{
-  color: whitesmoke;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  font-size: 70px;
-}
-.article{
-  width: 75%;
-  margin: 10px;
-  padding: 10px;
-
-
-}
-.image{
-  padding: 0px;
-  margin: 0px;
-width: 22%;
-object-fit: cover;
-overflow: hidden;
-}
-.image img{
-  height: 100%;
-  width: 100%;
-  filter: drop-shadow(5px 5px 20px rgb(246, 246, 5));
-  overflow: hidden;
-
-}
-.subinfo{
-  color: whitesmoke;
-  font-size: x-large;
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  margin-top: 20px;
-  margin-right: 10%;
-}
-
-#skills{
-  height: 400px;
-  width: 100%;
-  border: 2px solid brown;
- background-color: black;
-}
-.techskill{
-  display: flex;
-  justify-content: center;
-  margin-top: 1%;
   color: white;
-}
-#technology{
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
-}
-.skill1{
-  height: 100px;
-  width: 100px;
-  border: 1px solid white;
-  margin: 15px;
+ background-color: rgb(0, 0, 33);
+ font-family: '';
   
 }
