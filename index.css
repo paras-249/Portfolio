@@ -47,3 +47,27 @@ overflow: hidden;
   margin-right: 10%;
 }
 
+#skills{
+  height: 400px;
+  width: 100%;
+  border: 2px solid brown;
+ background-color: black;
+}
+.techskill{
+  display: flex;
+  justify-content: center;
+  margin-top: 1%;
+  color: white;
+}
+#technology{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.skill1{
+  height: 100px;
+  width: 100px;
+  border: 1px solid white;
+  margin: 15px;
+  
+}
