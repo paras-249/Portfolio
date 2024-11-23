@@ -1,19 +1,144 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>PORTFOLIO</title>
-  <link rel="stylesheet" href="index.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PORTFOLIO</title>
+    <link rel="stylesheet" href="index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="left">Paras's PORTFOLIO</div>
+        <div class="right">
+          <ul>
+            <li><a href=""> Home</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Interships</a></li>
+            <li><a href="">Projects</a></li>
+            <li><a href="">Contact Me</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="firstSection">
+        <div class="leftSection">
+          Hi, My name is <span class="name">Paras</span>
+          <div>and I am a passionate</div>
 
-</head>
-<body>
-<header>
-  <nav>
-    <div class="left"></div>
-    <div class="right"></div>
-  </nav>
-</header>
+          <!-- Element to contain animated typing -->
+          <span id="element"></span>
+          <div class="button">
+            <button class="btn">
+              <a href="imges/Paras Resume..png">Resume</a>
+            </button>
+            <button class="btn">
+              <a href="https://github.com/paras-249">Visit GitHub</a>
+            </button>
+          </div>
+        </div>
+        <div class="rightSection">
+          <img src="imges/pg.jpeg" alt="" />
+        </div>
+      </section>
 
-</body>
+      <hr />
+
+      <section class="secondSection">
+        <span class="text-gray"> What I Have done so far</span>
+        <h1>Work Experience</h1>
+
+        <div class="box">
+          <div class="vertical">
+            <img class="img-top" src="imges/html.png" alt="" />
+            <div class="vertical-title">
+              HtMl developer
+              <div>(2020-2322)</div>
+            </div>
+            <div class="vertical-desc">
+              sfvushacbaud ahsdb par sf paras govindlal oyde
+            </div>
+          </div>
+
+          <div class="vertical">
+            <img class="img-top" src="imges/html.png" alt="" />
+            <div class="vertical-title">
+              HtMl developer
+              <div>(2020-2322)</div>
+            </div>
+            <div class="vertical-desc">
+              sfvushacbaud ahsdb par sf paras govindlal oyde
+            </div>
+          </div>
+          <div class="vertical">
+            <img class="img-top" src="imges/html.png" alt="" />
+            <div class="vertical-title">
+              HtMl developer
+              <div>(2020-2322)</div>
+            </div>
+            <div class="vertical-desc">
+              sfvushacbaud ahsdb par sf paras govindlal oyde
+            </div>
+          </div>
+          <div class="vertical">
+            <img class="img-top" src="imges/html.png" alt="" />
+            <div class="vertical-title">
+              HtMl developer
+              <div>(2020-2322)</div>
+            </div>
+            <div class="vertical-desc">
+              sfvushacbaud ahsdb par sf paras govindlal oyde
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer">
+        <div class="footer-first">Paras Developer PORTFOLIO</div>
+
+        <div class="footer-second">
+          <ul>
+            <li>Home</li>
+            <li>about</li>
+            <li>Contact</li>
+          </ul>
+        </div>
+        <div class="third-footer">
+          <ul>
+            <li>Home</li>
+            <li>about</li>
+            <li>Contact</li>
+          </ul>
+        </div>
+        <div class="fourt-footer">
+          <ul>
+            <li>Home</li>
+            <li>about</li>
+            <li>Contact</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-rights">
+        zcopyright &#169; ParasDoye.com | All rights reserverd
+      </div>
+    </footer>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <!-- Setup and start animation! -->
+    <script>
+      var typed = new Typed("#element", {
+        strings: ["Software Engginer", " Software Tester", "", "Web Developer"],
+        typeSpeed: 50,
+      });
+    </script>
+  </body>
 </html>
