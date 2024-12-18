@@ -185,3 +185,18 @@ color: gray;
 margin-top: 20px;
 padding: 12px 0;
 }
+
+#certification{
+  padding: 5px;
+  border: solid white 1px;
+  color: white;
+ font-style: italic;
+ margin: 15px  0px;
+justify-content: center;
+ display: flex;
+ border-radius: 10px;
+}
+
+#certification:hover{
+  background-color: rgb(42, 59, 125);
+}
