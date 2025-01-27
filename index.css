@@ -62,6 +62,11 @@ font-size: 1.04rem;
   cursor: pointer;
   border-radius: 6px;
   height: 35px;
+  margin: 10px;
+
+}
+.btn:hover{
+  filter: drop-shadow(1px 1px 30px rgb(102, 117, 218));
 
 }
 .leftSection .btn a{
@@ -75,7 +80,7 @@ font-size: 1.04rem;
 width: 80%;
 margin-bottom: 50px;
 float: right;
-filter: drop-shadow(1px 1px 20px rgb(99, 99, 34));
+filter: drop-shadow(2px 2px 30px rgb(88, 101, 183));
 
 
 }
@@ -176,6 +181,9 @@ footer ul li img{
   width: 40px;
   border-radius: 50%;
 }
+footer ul li img:hover{
+  filter: drop-shadow(1px 1px 20px rgb(100, 117, 229));
+}
 .footer >div{
   width: 300px;
 }
@@ -195,17 +203,18 @@ justify-content: center;
  display: flex;
  border-radius: 10px;
  text-decoration: none;
+ background-color: transparent;
 }
 #certification a{
   text-decoration: none;
-  background-color: rgb(0, 0, 33);
+  background-color: rgb(1, 1, 53);
   color: white;
   font-family: "Poppins", sans-serif;
 }
 
-#certification:hover{
-  background-color: rgb(42, 59, 125);
+#certification:hover {
+  filter: drop-shadow(1px 1px 30px rgb(102, 117, 218));
 }
 #certification:hover a{
-  background-color: rgb(42, 59, 125);
+
 }
